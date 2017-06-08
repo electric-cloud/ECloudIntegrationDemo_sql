@@ -1,0 +1,16 @@
+#!/bin/sh
+#
+# A hook to verify that a label has been included in the commit message.
+# A label is a string insisde square bracket []
+#
+set +x
+
+res=`egrep '\[[a-zA-Z0-9,_-]+\]' $1`
+
+# test to check for any returned result
+if [ ! -n "$res" ]
+then
+	echo >&2 "Missing label in the commit message."
+	exit 1
+fi
+exit 0
