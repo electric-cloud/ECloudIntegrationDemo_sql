@@ -13,5 +13,5 @@ CREATE TABLE [dbo].[francais](
 )
 GO
 
-INSERT [dbo].[francais] ([ID], [nom], [prénom]) VALUES (1, "Rochette", "laurent")
-INSERT [dbo].[francais] ([ID], [nom], [prénom]) VALUES (2, "Chabot", "Geneviève")
+INSERT [dbo].[francais] ([ID], [nom], [prénom]) VALUES (1, 'Rochette', 'laurent')
+INSERT [dbo].[francais] ([ID], [nom], [prénom]) VALUES (2, 'Chabot', 'Geneviève')
