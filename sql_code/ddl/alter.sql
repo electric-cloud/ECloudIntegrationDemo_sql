@@ -1,5 +1,5 @@
 /* setlocale (LC_ALL, 'nl_BE');*/
-/* sp_rename 'dbo.francais.prénom', 'prenom', 'COLUMN'; */
+
 
 /*
 SET IDENTITY_INSERT [dbo].[francais] ON
